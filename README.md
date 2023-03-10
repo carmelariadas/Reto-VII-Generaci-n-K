@@ -1,3 +1,16 @@
+#RETO LANZADO POR KAIROSDS
+
+EL faraón Nekgikis VII quiere traducir un nombre al egipcio antiguo. Para ello, debe eliminar las vocales y los espacios del nombre. Por ejemplo, si el nombre es "Juan", el nombre traducido será "Jn".
+
+También quiere saber cuántos días han pasado desde una fecha dada hasta el 10 de marzo de 2023. Por ejemplo, si la fecha es "10/03/2020", el número de días transcurridos será 1095.
+
+Sin embargo si la fecha introducida fuera 10/03/2024, el número de días transcurridos sería -366.
+
+Es necesario que además se añada el evento de perder el foco (blur) a los inputs de nombre y fecha, para que el faraón pueda leer el nombre sin vocales ni espacios y los días transcurridos en los otros dos inputs correspondientes.
+
+Para ello, el faraón te pide que definas las siguientes funciones: calculateIntervalDays, removeVocalsAndSpaces, handleInputName y handleInputDate
+
+
 # WebApp boilerplate with React JS and Flask API
 
 Build web applications using React.js for the front end and python/flask for your backend API.
