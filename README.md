@@ -1,4 +1,4 @@
-#RETO LANZADO POR KAIROSDS
+# RETO LANZADO POR KAIROSDS
 
 EL faraón Nekgikis VII quiere traducir un nombre al egipcio antiguo. Para ello, debe eliminar las vocales y los espacios del nombre. Por ejemplo, si el nombre es "Juan", el nombre traducido será "Jn".
 
