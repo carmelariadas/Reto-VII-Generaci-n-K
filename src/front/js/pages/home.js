@@ -19,68 +19,65 @@ export const Home = () => {
     // 	</p>
     // </div>
 
-    <div className="">
+    <>
       <div className="row">
         <div className="col"></div>
         <div className="col">
           <form id="testForm" className="d-flex">
-            <div class="mb-3">
               <label for="name" >
                 Nombre
-              </label><br/>
+              </label>
               <input
                 type="text"
                 id="name"
                 name="name"
-                value=""
+                // value=""
                 
-              ></input>
-            </div>
-            <div class="mb-3">
+              /><br/>
               {" "}
               <label for="nameWithoutVocals" >
                 Nombre sin vocales
-              </label><br/>
+              </label>
               <input
                 type="text"
                 id="nameWithoutVocals"
                 name="nameWithoutVocals"
-                value=""
+                // value=""
                 disabled=""
                 
-              />
-            </div>
-            <div class="mb-3">
+              /><br/>
               {" "}
               <label for="date" >
                 Fecha
-              </label><br/>
+              </label>
               <input
                 type="date"
                 id="date"
                 name="date"
-                value=""
+                // value=""
                 
-              />
-            </div>
-            <div class="mb-3">
+              /><br/>
+
               {" "}
               <label for="days" >
                 Días transcurridos hasta el 10/03/2023
-              </label><br/>
+              </label>
               <input
                 type="text"
                 id="days"
                 name="days"
-                value=""
+                // value=""
                 disabled=""
                 
-              />
-            </div>
+              /><br/>
           </form>
         </div>
         <div className="col"></div>
       </div>
-    </div>
+
+
+
+	  <input type="text"/>
+    </>
   );
 };
