@@ -1,3 +1,7 @@
 /* 
     General Styles used on every website (Don't Repeat Yourself)
 */
+#testForm{
+    display: flex;
+    flex-direction: column;
+}
